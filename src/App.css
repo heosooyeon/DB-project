@@ -1,0 +1,96 @@
+.title{
+  text-align: center;
+  font-size: 30px;
+}
+
+.Netflix{
+  color: red;
+  font-weight: bolder;
+}
+
+.Disney{
+  color:blue;
+  font-weight: bolder;
+}
+
+.first{
+  padding-top: 50px;
+  padding-bottom: 100px;
+  font-size: larger;
+}
+
+h2{
+  font-weight: lighter;
+  text-align: center;
+  line-height: 50px;
+}
+
+.Netdiv{
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.Netimg{
+  background-size: cover;
+  width: 60%;
+}
+
+.Netexp{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  font-size: larger;
+}
+
+table{
+  width: 60%;
+  margin:auto;
+  text-align: center;
+  font-weight: lighter;
+  font-size:30px;
+}
+
+tr.red{
+  background-color: red;
+  color:#ffffff;  
+}
+
+.nextpage{
+  display: flex;
+  align-items: center;
+  margin-bottom: 250px;
+}
+
+button{
+  background-color: white;
+  font-size: larger;
+}
+
+.disdiv{
+  display: fixed;
+  align-items: center;
+  background-color: #000080;
+  width: 100%;
+  height: 1500px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.disimgdiv{
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.disimg{
+  background-size: cover;
+  width: 30%;
+}
