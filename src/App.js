@@ -19,7 +19,10 @@ function App() {
           <h2>미국의 글로벌 1위 멀티미디어 엔터테이먼트 OTT 기업<br></br>인터넷(net)+영화(flicks)를 합쳐 만들어진 <span className="Netflix">Netflix</span></h2>
         </div>
         <table border="1">
-          <tr class="red">
+          <tr  class="red">
+            <td colspan="5">Netflix 요금제</td>
+          </tr>
+          <tr>
             <td>플랜</td>
             <td>광고형 베이식</td>
             <td>베이식</td>
@@ -47,15 +50,34 @@ function App() {
           </tr>
         </table>
         <div className="nextpage">
-          <button>Netflix</button>
+          <button class="netbtn">Netflix</button>
         </div>
-        <div className="disdiv">
+
+
           <div className="disimgdiv">
-          <img src="./images/disney.png" alt="disney plus" className="disimg"></img>
+            <img src="./images/disney.png" alt="disney plus" className="disimg"></img>
           </div>
-        
+          <div className="disexp">
+            <h2>세계 최대 콘텐츠 기업인 디즈니의 온라인 동영상 서비스(OTT)로,<br></br><span className="Disney">Disney plus</span>에서는 월트디즈니컴퍼니가 보유한 <br></br>영화와 오리지널 TV 프로그램 등을 볼 수 있다.</h2>
+          </div>
+          <table border="1">
+            <tr class="navy">
+              <td colspan="3">Disney plus 요금제</td>
+            </tr>
+            <tr class="border">
+              <td>월간</td>
+              <td>연간</td>
+              <td>동시접속 가능 인원</td>
+            </tr>
+            <tr>
+              <td>9,900원</td>
+              <td>9,9000원</td>
+              <td>4명</td>
+            </tr>
+          </table>
+          <div className="nextpage">
+          <button class="disbtn">disney plus</button>
         </div>
-        
       </section>
     </div>
     
